@@ -1,0 +1,54 @@
+.mainDiv{
+  display: flex;
+  justify-content: space-around;
+}
+
+.sub1{
+  background: red;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0 0 black;
+  text-align: center;
+}
+
+.sub2{
+  background: pink;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0 0 black;
+  text-align: center;
+}
+
+.sub3{
+  background: green;
+  border-radius: 15px;
+  box-shadow: 10px 10px 0 0 black;
+  text-align: center;
+}
+body{
+  background:#BAF1AD
+}
+.image1{
+  margin:5px;
+  width: 400px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 0;
+}
+.image2{
+  margin:5px;
+  width: 400px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 0;
+}
+.image3{
+  margin:5px;
+  width: 400px;
+  height: 200px;
+  border-radius: 15px;
+  box-shadow: 2px 2px 2px 0;
+}
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: blue;
+    }
+}
